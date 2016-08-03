@@ -1,0 +1,15 @@
+// Get rid of a lot of default styles across the board.  Mostly for ios
+input {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+	border:0;
+	border-radius: 0;
+	outline: none;
+	
+	&:focus {
+		
+	}
+}

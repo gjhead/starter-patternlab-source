@@ -1,0 +1,25 @@
+.DS_store
+backups/
+cache/
+core
+custom/environment.php
+site/files/
+site/files.b/
+
+
+node_modules/
+node_cache/
+
+
+# pattern lab files excluded for now
+config/
+vendor/
+
+
+# just a little crazy about sass cache.  this def takes care of ALL OF IT
+.scssc
+*.scssc
+.sass-cache
+*.sass-cache/
+**/.sass-cache
+**/.sass-cache/*
